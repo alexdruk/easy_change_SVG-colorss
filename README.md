@@ -1,6 +1,7 @@
 Easily Change your SVG Colors and/or Texts
 
-![changeColor](https://github.com/alexdruk/Change_SVG-colors/assets/840087/6c919926-022a-4ba9-9e2b-2ccde7f2e6a7)
+![changeSVGcolors](https://github.com/alexdruk/Change_SVG-colors/assets/840087/dbfa547f-ef78-4076-b6e5-078178feca3a)
+
 
 * Download/copy corresponding html file and open it in your browser
 * Select your SVG image
