@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change colors in your SVG</title>
+    <script src="app.js"  type="text/javascript" defer></script>
+    <script type="text/javascript" src="toolcool-color-picker.min.js" defer></script> <!--https://toolcool-color-picker.mzsoft.org/s-->
+</head>
+<body>
+  <div id="header" style="padding:10px;"></div>
+  <div id="panels">
+     <div style="width: 30%;float:left;text-align:center;" id="splitleft">
+    </div>
+    <div style="width: 68%;float:right;text-align:center;" id="splitright">
+        <input type="file" id="inputfield"  accept=".svg"  style="padding: 10px; background-color: blue;color: white;"/>
+        <div class="svgoutput"></div>
+    </div>
+  </div>
+  <div  id="footer" style="position: fixed; bottom:0;left:50%;">
+    <button id="downloadSVG" style="padding: 10px; background-color: blue;color: white;">Download SVG</button>
+  </div>
+</body>
+</html>

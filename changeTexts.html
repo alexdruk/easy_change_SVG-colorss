@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change texts in your SVG</title>
+    <script src="changeTexts.js"  type="text/javascript" defer></script>
+</head>
+<body>
+  <div id="header" style="padding:10px;"></div>
+  <div id="panels">
+     <div style="width: 30%;float:left;text-align:center;" id="splitleft">
+    </div>
+    <div style="width: 68%;float:right;text-align:center;" id="splitright">
+        <input type="file" id="inputfield"  accept=".svg"  style="padding: 10px; background-color: blue;color: white;"/>
+        <div class="svgoutput"></div>
+    </div>
+  </div>
+  <div  id="footer" style="position: fixed; bottom:0;left:50%;">
+    <button id="downloadSVG" style="padding: 10px; background-color: blue;color: white;">Download .svg</button>
+  </div>
+</body>
+</html>
